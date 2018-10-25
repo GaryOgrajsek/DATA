@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\in4a13\desktop\c++\calendario\calendario\main.cpp(56): error C2676: '++' binario: 'Data' non definisce questo operatore né una conversione in un tipo che può essere accettato dall'operatore predefinito
+  data.cpp
+  Generazione del codice in corso...
