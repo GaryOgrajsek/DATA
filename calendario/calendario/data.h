@@ -23,7 +23,7 @@ public:
 	string toString();
 	bool isBisestile();
 	int isMax();
-	void operator ++();
+	void operator ++(int); //con int capisce che è post incremento. Se vogliamo il pre, bisogna dichiararli entrambi.
 	~Data();
 };
 
