@@ -1,14 +1,14 @@
 #pragma once
-#include<string>
+#include <string>
 #include <iostream>
 using namespace std;
 
 class Data{
 	friend istream & operator >> (istream&cin, Data&miaData);
-	friend ostream & operator << (ostream&cout, Data miaData);
-	friend bool operator ==(Data, Data);
+	friend ostream & operator << (ostream&cout, const Data & miaData); //sennò copiare una classe richiede molto spazio. Ma non modifichi niente poiché è const.
+	friend bool operator ==(Data, Data); //friend perché usa due oggetti
 	
-	friend void operator +=(Data, int);
+	friend void operator +=(Data, int); //non necessario il friend amicone <3
 	//friend int operator -(Data, Data);
 
 private:
